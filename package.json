@@ -1,0 +1,28 @@
+{
+  "name": "graphql-apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon --ext js,graphql app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://onatvaris@github.com/onatvaris/graphql-apollo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onatvaris/graphql-apollo/issues"
+  },
+  "homepage": "https://github.com/onatvaris/graphql-apollo#readme",
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "graphql-import": "^1.0.2",
+    "graphql-tools": "^4.0.8",
+    "nodemon": "^2.0.7"
+  }
+}
