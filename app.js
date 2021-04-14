@@ -7,7 +7,7 @@ const resolvers = require("./graphql/resolvers");
 //resolvers dosyasında ki index i çeker
 
 const server = new ApolloServer({
-  typeDefs: importSchema("./graphql/schema/schema.graphql"),
+  typeDefs: importSchema("./graphql/schema.graphql"),
   resolvers,
   context: {
     db,
